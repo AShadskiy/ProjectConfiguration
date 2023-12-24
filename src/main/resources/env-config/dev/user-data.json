@@ -1,0 +1,6 @@
+{
+  "ROLE_SUPER_ADMIN": {
+    "email": "email",
+    "password": "password"
+  }
+}
