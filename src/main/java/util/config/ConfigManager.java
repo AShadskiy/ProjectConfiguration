@@ -10,7 +10,7 @@ import java.util.Properties;
 @Slf4j
 public class ConfigManager {
 
-    private static final String ENV = System.getProperty("TaC-ENV", "local");
+    private static final String ENV = System.getProperty("APP-ENV", "local");
     private static final String MAIN_CONFIG_PATH = "env-config/%s/main-config.properties";
     public static final String CURRENT_MAIN_CONFIG = String.format(MAIN_CONFIG_PATH, ENV);
     private static final String USER_CONFIG_PATH = "src/main/resources/env-config/%s/user-data.json";
